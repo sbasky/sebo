@@ -1,0 +1,16 @@
+# Secrets — never commit
+.env
+client_secret.json
+token.json
+
+# Local database (your own GSC data)
+sebo.db
+
+# Generated locally
+email_preview.html
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
