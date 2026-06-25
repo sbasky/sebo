@@ -1,5 +1,12 @@
 # Sebo
 
+![License: AGPL v3](https://img.shields.io/badge/license-AGPL--3.0-blue)
+![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-3776ab?logo=python&logoColor=white)
+![Powered by Claude](https://img.shields.io/badge/powered%20by-Claude-d97757)
+![Self-hosted: free](https://img.shields.io/badge/self--hosted-free-1a5c47)
+![Open source](https://img.shields.io/badge/open%20source-%E2%9C%93-brightgreen)
+![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
+
 A small, self-hosted SEO agent. Once a week it pulls your Google Search Console data, works out what changed compared to the last month, asks Claude to turn that into a plain-English brief, and emails it to you.
 
 No dashboard to check, no subscription. It runs on your own machine (or a cheap server) and the data never leaves it.
