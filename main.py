@@ -17,6 +17,9 @@ SITE_URL = os.getenv("SITE_URL", "")
 
 
 def run():
+    if not SITE_URL:
+        raise SystemExit("SITE_URL is not set. Copy .env.example to .env and fill it in.")
+
     print(f"[1/4] Fetching Search Console data for: {SITE_URL}")
     data = fetch_comparison(site_url=SITE_URL)
     q = data["queries"]

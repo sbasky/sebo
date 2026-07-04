@@ -1,6 +1,6 @@
 # Sebo
 
-![License: AGPL v3](https://img.shields.io/badge/license-AGPL--3.0-blue)
+![License: MIT](https://img.shields.io/badge/license-MIT-blue)
 ![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-3776ab?logo=python&logoColor=white)
 ![Powered by Claude](https://img.shields.io/badge/powered%20by-Claude-d97757)
 ![Self-hosted: free](https://img.shields.io/badge/self--hosted-free-1a5c47)
@@ -111,4 +111,4 @@ For the real weekly schedule, you can leave `scheduler.py` running, but on a ser
 
 ## License
 
-[AGPL-3.0](LICENSE). If you run a modified version as a network service, you have to make your source available to its users. Do what you like with it otherwise.
+[MIT](LICENSE). Do what you like with it.

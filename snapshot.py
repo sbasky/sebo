@@ -5,7 +5,7 @@ Stores full comparison dumps and auto-logs quick wins / losing keywords as recom
 
 import json
 import sqlite3
-from datetime import datetime
+from datetime import datetime, timezone
 
 DB_FILE = "sebo.db"
 
@@ -48,7 +48,7 @@ def init_db() -> None:
 def save_snapshot(site_url: str, data: dict) -> int:
     """Persist a full comparison snapshot. Returns the new snapshot id."""
     init_db()
-    now = datetime.utcnow().isoformat()
+    now = datetime.now(timezone.utc).isoformat()
 
     with _connect() as conn:
         cur = conn.execute(
